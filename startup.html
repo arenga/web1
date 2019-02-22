@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>업스타트(Upstart)</title>
+    <meta charset = "utf-8">
+  </head>
+  <style>
+    #grid{
+      display:grid;
+      grid-template-columns:250px 2fr;
+    }
+
+    #active{
+      color:red;
+    }
+
+    body{
+      background-color: #000000;
+    }
+
+    h1{
+      font-size: 45px;
+      text-align: center;
+      padding: 20px;
+      border-bottom:2px solid grey;
+      margin : 0;
+      color:#FFFFFF;
+    }
+
+    /* 본문 글씨 색상 */
+    #grid div{
+      color:#d3d3d3;
+    }
+
+    a{
+      color:#d3d3d3;
+      text-decoration:none;
+    }
+
+
+    ol{
+      border-right:2px solid grey;
+      width:150px;
+      margin:0;
+      padding-top:20px;
+      color:white;
+    }
+
+    #grid #article{
+      padding-left:10px;
+    }
+
+    body{
+      margin: 0;
+    }
+
+    @media(max-width:800px){
+      #grid{
+        display:block;
+      }
+      ol{
+        border-right:none;
+      }
+      h1 {
+        border-bottom:none;
+      }
+    }
+
+
+  </style>
+
+  <body>
+
+    <h1><a href="upstart.html">Upstart</a></h1>
+
+    <div id = "grid">
+      <ol>
+        <li><a href="startup.html">스타트업의 정의</a></li>
+        <li><a href="vc.html">벤처캐피탈의 정의</a></li>
+        <li><a href="angel.html">엔젤투자의 정의</a></li>
+        </ol>
+        <div>
+          <h2 id = "article">스타트업의 정의</h2>
+          <img src = "startup_main.png" width = "50%">
+          <p><strong><u><a href="https://en.wikipedia.org/wiki/Startup_company" target = "_blank" title = "definition of startup">
+            스타트업</a></u></strong>은 설립한 지 오래되지 않은 신생 벤처기업을 뜻한다.
+          미국 실리콘밸리에서 생겨난 용어로서, 혁신적 기술과 아이디어를 보유한 설립된 지 얼마 되지 않은 창업 기업이다.
+          자체적인 비즈니스모델을 가지고 있는 작은 그룹이나 프로젝트성 회사를 의미한다.
+          </p>
+          <p><iframe width="912" height="513" src="https://www.youtube.com/embed/x6VU6atIzOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+        </div>
+
+    </div>
+
+      <div id="disqus_thread"></div>
+        <script>
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://upstart-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <p>
+      <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5c67d269f324050cfe337fae/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+    </p>
+
+  </body>
+</html>
